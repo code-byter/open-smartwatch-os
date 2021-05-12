@@ -13,7 +13,8 @@
 #endif
 
 // #include "./apps/_experiments/runtime_test.h"
-#include "./apps/_experiments/gif_player.h"
+#include "./apps/_experiments/crypto_tracker.h"
+#include "./apps/_experiments/crypto_tracker.h"
 #include "./apps/main/stopwatch.h"
 #include "./apps/main/watchface.h"
 #include "./apps/tools/ble_media_ctrl.h"
@@ -40,10 +41,10 @@ OswApp *mainApps[] = {
 #if defined(GPS_EDITION)
     new OswAppMap(),  //
 #endif
-    new OswAppStopWatch(),    //
+    //new OswAppStopWatch(),    //
     new OswAppTimeFromWeb(),  //
-    new OswAppWaterLevel(),   //
-    new OswAppGifPlayer()
+    //new OswAppWaterLevel(),   //
+    new OswAppCryptoTracker()
     // new OswAppPrintDebug()    //
     // new OswAppBLEMEdiaCtrl()
 };
